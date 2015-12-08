@@ -4,6 +4,7 @@ import expect from 'expect.js';
 import { networkStatus, monitorForReConnect } from '../src/networkStatus';
 
 global.XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+global.Promise = require('es6-promise').Promise;
 
 describe("network status", () => {
     it("should be reachable", done => {
