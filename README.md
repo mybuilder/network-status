@@ -7,6 +7,12 @@ Requires ES6 Promises
 
 [![Build Status](https://travis-ci.org/mybuilder/network-status.svg?branch=master)](https://travis-ci.org/mybuilder/network-status)
 
+## Install from npm
+```
+npm install network-status --save
+```
+
+
 ## Network status
 
 From network `networkStatus` returns the current network state by giving a uri to ping e.g. `favicon.ico`.
